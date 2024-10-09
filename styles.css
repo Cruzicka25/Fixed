@@ -106,7 +106,7 @@ h1{
     font-size:45px;
     text-align:center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    height:300px;
+    height:100px;
     right:400px;
     left:400px;
     position:fixed;
@@ -138,4 +138,9 @@ h2{
     left:450px;
     height:auto;
     padding-top:35px;
+}
+
+body{
+    position:absolute;
+
 }
