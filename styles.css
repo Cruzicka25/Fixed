@@ -136,6 +136,6 @@ h2{
     position:fixed;
     right:450px;
     left:450px;
-    height:200px;
+    height:auto;
     padding-top:35px;
 }
