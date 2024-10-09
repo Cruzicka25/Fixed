@@ -27,10 +27,11 @@ main {
     position: fixed;
     top: 100px; 
     bottom: 25px;
-    left: 100px; 
+    left: 80px; 
     right: 0px;
     overflow: auto; 
     overflow: scroll; 
+
   }
 
 
