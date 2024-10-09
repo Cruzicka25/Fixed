@@ -133,8 +133,16 @@ h2{
     right:300px;
     left:300px;
 
+
 }
 
+.yap2{
+position:fixed;
+left:300px;
+right:300px;
+top:500px;
+
+}
 .nc3{
     position:fixed;
     right:450px;
