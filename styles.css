@@ -29,7 +29,7 @@ main{
     bottom:25px;
     right:0px;
     top:100px;
-    overflow-y:scroll;
+    overflow:scroll;
    scrollbar-color: red ;
 }
 nav{
