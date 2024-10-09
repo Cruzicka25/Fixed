@@ -128,3 +128,10 @@ h2{
     left:300px;
 
 }
+
+.nc3{
+    position:fixed;
+    right:450px;
+    left:450px;
+    height:auto;
+}
