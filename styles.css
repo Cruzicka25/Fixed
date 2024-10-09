@@ -33,7 +33,7 @@ main {
     height: calc(100vh - 125px); /* 100vh minus the header (100px) and footer (25px) */
   }
 
-}
+
 nav{
     position:fixed;
     left:0px;
