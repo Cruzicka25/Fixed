@@ -24,15 +24,14 @@ header{
 
 main{
     background-color:rgb(213, 222, 230);
-    position:fixed;
+    position:absolute;
     left:80px;
     bottom:25px;
     right:0px;
     top:100px;
     top: 0;
     bottom:0;
-    overflow-y:scroll;
-    overflow-x:hidden;
+    overflow-y: scroll;
 
 }
 nav{
