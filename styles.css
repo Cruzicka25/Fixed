@@ -22,16 +22,16 @@ header{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-main{
-    background-color:rgb(213, 222, 230);
-    position:static;
-    left:80px;
-    bottom:25px;
-    right:0px;
-    top:100px;
-    top: 0;
-    bottom:0;
-    overflow:auto;
+main {
+    background-color: rgb(213, 222, 230);
+    position: relative; /* Change from static to relative */
+    top: 100px; /* Start below the fixed header */
+    bottom: 25px; /* End above the footer */
+    left: 80px; /* Space for the nav */
+    right: 0px;
+    overflow: auto; /* Allow scrolling */
+    height: calc(100vh - 125px); /* 100vh minus the header (100px) and footer (25px) */
+  }
 
 }
 nav{
