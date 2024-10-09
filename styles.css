@@ -24,13 +24,13 @@ header{
 
 main {
     background-color: rgb(213, 222, 230);
-    position: relative; /* Change from static to relative */
-    top: 100px; /* Start below the fixed header */
-    bottom: 25px; /* End above the footer */
-    left: 80px; /* Space for the nav */
+    position: fixed;
+    top: 100px; 
+    bottom: 100px;
+    left: 100px; 
     right: 0px;
-    overflow: auto; /* Allow scrolling */
-    height: calc(100vh - 125px); /* 100vh minus the header (100px) and footer (25px) */
+    overflow: auto; 
+    max-height:100vh;
   }
 
 
@@ -140,7 +140,3 @@ h2{
     padding-top:35px;
 }
 
-body{
-    position:absolute;
-
-}
