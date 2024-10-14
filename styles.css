@@ -33,7 +33,7 @@ background: linear-gradient(155deg, rgba(212,130,71,1) 0%, rgba(213,147,65,1) 10
     right: 0px;
     overflow: auto; 
     overflow-y: scroll; 
-    scrollbar-width:none;
+    scrollbar-color: rgb(164, 80, 59) rgba(83, 11, 11, 0);
    
 
 }
